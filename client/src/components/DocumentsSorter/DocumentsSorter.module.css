@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.container > * {
+    margin-bottom: 0px;
+}
+
+.select {
+    width: 100%;
+}
